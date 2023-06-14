@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>D3 Visualizations</title>
+  <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo'
+    crossorigin='anonymous'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js' integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49'
+    crossorigin='anonymous'></script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy'
+    crossorigin='anonymous'></script>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO'
+    crossorigin='anonymous'>
+  <link rel='stylesheet' href='assets/css/style.css'>
+  <link rel='stylesheet' href='assets/css/d3Style.css'>
+
+</head>
+
+<body>
+
+  <nav class='navbar navbar-custom'>
+    <a class='navbar-brand' href='index.html'>Nigeria States Poverty and Unemployment rate Trends</a>
+    </div>
+  </nav>
+
+  <div class='container-fluid'>
+
+    <div class='row'>
+      <div class='col text-center'>
+        <h4 id='plot-title'>Poverty vs. Unemployment Across 36 States</h4>
+      </div>
+    </div>
+
+    <div class='row'>
+      <div class='col text-center'>
+        <div id='scatter'>
+        </div>
+      </div>
+    </div>
+
+    <div class='row justify-content-center'>
+      <div class='col-md-8'>
+
+        <div class='row justify-content-center'>
+          <h5 id='caption'>Correlations Discovered Between Poverty and Unemployment</h5>
+        </div>
+        <div class='row'><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This above visualization shows a positive correlation between poverty and unemployment.
+            Poorer states have higher incidences of unemployment. The top states showing this correlation are
+            Yobe, Kwara, Enugu, Plateau, and Zamfara. Other states show healthier populations
+            along with lower poverty rates, such as Lagos, Rivers, and Ogun. Not all states show this
+            correlation. For example, Oyo and Kastina both have relatively high unemployment rates compared to
+            poverty rates.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class='footer'>
+      Made with 💜 and <a id='d3-link' href='https://d3js.org/' target='_blank' rel='noopener noreferrer'>D3.js</a>&nbsp;&nbsp;|&nbsp;&nbsp;Timi B 2023&nbsp;&nbsp;
+      <a href='https://github.com/TimiBee/interactive-visualizations-NG-with-d3-js' target='_blank' rel='noopener noreferrer'><img id='gh-icon' src='icons8-github-64.png'></a>
+    </div>
+  </footer>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js'></script>
+  <script type='text/javascript' src='assets/js/app.js'></script>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+.navbar-custom {
+  background-color: #66a07c;
+}
+
+.navbar-brand:link,
+.navbar-brand:visited,
+.navbar-brand:hover,
+.navbar-brand:active {
+  color: white;
+  font-size: 0.9em;
+}
+
+#plot-title {
+  padding-top: 10px;
+}
+
+#caption {
+  text-align: center;
+}
+
+footer {
+  background-color: #72a889;
+  color: white; 
+  font-size: 9pt; 
+  text-align: center; 
+  vertical-align: middle;
+  line-height: 45px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+#d3-link:link,
+#d3-link:visited,
+#d3-link:hover,
+#d3-link:active {
+  color: white !important;
+}
+
+#gh-icon {
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+}
