@@ -48,7 +48,7 @@ Next, I moved on to the basic index.html skeleton with navbar to hold my visuali
 
     <div class='row'>
       <div class='col text-center'>
-        <h4 id='plot-title'>Poverty vs. Unemployment Across 50 States</h4>
+        <h4 id='plot-title'>Poverty vs. Unemployment Across 36 States</h4>
       </div>
     </div>
 
