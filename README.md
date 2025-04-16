@@ -175,7 +175,7 @@ function visualization(states) {
 
 ### Styles
 
-Last, I added styles to give a little bit more personalization.
+Last, I added styles to give more personalization.
 
 ```css
 .navbar-custom {
